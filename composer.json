@@ -5,9 +5,13 @@
             "Optimus\\Genie\\": "src/"
         }
     },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/mpenna/bruno"
+    }],
     "require": {
         "illuminate/database": ">=4.0",
-        "optimus/bruno": "~2.0"
+        "optimus/bruno": "dev-laravel-54"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
